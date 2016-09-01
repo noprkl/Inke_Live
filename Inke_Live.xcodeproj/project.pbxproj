@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048C0B7B1D77C3B900A8E672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C0B791D77C3B900A8E672 /* Main.storyboard */; };
+		048C0B7D1D77C3B900A8E672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C0B7C1D77C3B900A8E672 /* Assets.xcassets */; };
+		048C0B801D77C3B900A8E672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C0B7E1D77C3B900A8E672 /* LaunchScreen.storyboard */; };
+		048C0B8B1D77C3B900A8E672 /* Inke_LiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0B8A1D77C3B900A8E672 /* Inke_LiveTests.m */; };
+		048C0B961D77C3B900A8E672 /* Inke_LiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0B951D77C3B900A8E672 /* Inke_LiveUITests.m */; };
+		048C0BC31D77C4A600A8E672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BBA1D77C4A600A8E672 /* AppDelegate.m */; };
+		048C0BC41D77C4A600A8E672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BBC1D77C4A600A8E672 /* ViewController.m */; };
+		048C0BC81D77D10600A8E672 /* LXBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BC71D77D10600A8E672 /* LXBaseTabBarController.m */; };
+		048C0BCB1D77D19700A8E672 /* LXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BCA1D77D19700A8E672 /* LXTabBar.m */; };
+		048C0BCD1D77D5A600A8E672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BCC1D77D5A600A8E672 /* main.m */; };
+		048C0BD31D77D9DC00A8E672 /* LXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BD21D77D9DC00A8E672 /* LXBaseNavigationController.m */; };
+		048C0BD91D77DF2B00A8E672 /* LXLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BD81D77DF2B00A8E672 /* LXLiveViewController.m */; };
+		048C0BE11D78260100A8E672 /* LXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BE01D78260100A8E672 /* LXBaseViewController.m */; };
+		048C0BEA1D782A6700A8E672 /* LXLaurenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BE81D782A6700A8E672 /* LXLaurenViewController.m */; };
+		048C0BEB1D782A6700A8E672 /* LXLaurenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0BE91D782A6700A8E672 /* LXLaurenViewController.xib */; };
+		048C0BF21D782CFE00A8E672 /* LXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BF01D782CFE00A8E672 /* LXMainViewController.m */; };
+		048C0BF31D782CFE00A8E672 /* LXMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0BF11D782CFE00A8E672 /* LXMainViewController.xib */; };
+		048C0BFA1D78305100A8E672 /* LXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BF81D78305100A8E672 /* LXMeViewController.m */; };
+		048C0BFB1D78305100A8E672 /* LXMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0BF91D78305100A8E672 /* LXMeViewController.xib */; };
+		048C0BFF1D78307300A8E672 /* LXFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0BFD1D78307300A8E672 /* LXFocusViewController.m */; };
+		048C0C001D78307300A8E672 /* LXFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0BFE1D78307300A8E672 /* LXFocusViewController.xib */; };
+		048C0C091D7830FD00A8E672 /* LXNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0C071D7830FD00A8E672 /* LXNearViewController.m */; };
+		048C0C0A1D7830FD00A8E672 /* LXNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0C081D7830FD00A8E672 /* LXNearViewController.xib */; };
+		048C0C0F1D78317D00A8E672 /* LXHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C0C0D1D78317D00A8E672 /* LXHotViewController.m */; };
+		048C0C101D78317D00A8E672 /* LXHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0C0E1D78317D00A8E672 /* LXHotViewController.xib */; };
+		2389A19480ADDA697424298A /* libPods-Inke_LiveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2662AE5E6CC94FFB37FB9044 /* libPods-Inke_LiveTests.a */; };
+		413CF6050C1E2550D77CC9D9 /* libPods-Inke_Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9A6DC0AEC2E9351975B56 /* libPods-Inke_Live.a */; };
+		B613E2691BDB606B74CA9162 /* libPods-Inke_LiveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EFDC78C71DA77E7D4A671C /* libPods-Inke_LiveUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048C0B871D77C3B900A8E672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048C0B651D77C3B900A8E672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048C0B6C1D77C3B900A8E672;
+			remoteInfo = Inke_Live;
+		};
+		048C0B921D77C3B900A8E672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048C0B651D77C3B900A8E672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048C0B6C1D77C3B900A8E672;
+			remoteInfo = Inke_Live;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048C0B6D1D77C3B900A8E672 /* Inke_Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inke_Live.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C0B7A1D77C3B900A8E672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048C0B7C1D77C3B900A8E672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048C0B7F1D77C3B900A8E672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048C0B811D77C3B900A8E672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C0B861D77C3B900A8E672 /* Inke_LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inke_LiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C0B8A1D77C3B900A8E672 /* Inke_LiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inke_LiveTests.m; sourceTree = "<group>"; };
+		048C0B8C1D77C3B900A8E672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C0B911D77C3B900A8E672 /* Inke_LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inke_LiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C0B951D77C3B900A8E672 /* Inke_LiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inke_LiveUITests.m; sourceTree = "<group>"; };
+		048C0B971D77C3B900A8E672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C0BB91D77C4A600A8E672 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048C0BBA1D77C4A600A8E672 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048C0BBB1D77C4A600A8E672 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048C0BBC1D77C4A600A8E672 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048C0BC51D77C51100A8E672 /* Inke_Live.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inke_Live.pch; sourceTree = "<group>"; };
+		048C0BC61D77D10600A8E672 /* LXBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseTabBarController.h; sourceTree = "<group>"; };
+		048C0BC71D77D10600A8E672 /* LXBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseTabBarController.m; sourceTree = "<group>"; };
+		048C0BC91D77D19700A8E672 /* LXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTabBar.h; sourceTree = "<group>"; };
+		048C0BCA1D77D19700A8E672 /* LXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTabBar.m; sourceTree = "<group>"; };
+		048C0BCC1D77D5A600A8E672 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048C0BD11D77D9DC00A8E672 /* LXBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseNavigationController.h; sourceTree = "<group>"; };
+		048C0BD21D77D9DC00A8E672 /* LXBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseNavigationController.m; sourceTree = "<group>"; };
+		048C0BD71D77DF2B00A8E672 /* LXLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLiveViewController.h; sourceTree = "<group>"; };
+		048C0BD81D77DF2B00A8E672 /* LXLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLiveViewController.m; sourceTree = "<group>"; };
+		048C0BDF1D78260100A8E672 /* LXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseViewController.h; sourceTree = "<group>"; };
+		048C0BE01D78260100A8E672 /* LXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseViewController.m; sourceTree = "<group>"; };
+		048C0BE71D782A6700A8E672 /* LXLaurenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLaurenViewController.h; sourceTree = "<group>"; };
+		048C0BE81D782A6700A8E672 /* LXLaurenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLaurenViewController.m; sourceTree = "<group>"; };
+		048C0BE91D782A6700A8E672 /* LXLaurenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXLaurenViewController.xib; sourceTree = "<group>"; };
+		048C0BEF1D782CFE00A8E672 /* LXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMainViewController.h; sourceTree = "<group>"; };
+		048C0BF01D782CFE00A8E672 /* LXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMainViewController.m; sourceTree = "<group>"; };
+		048C0BF11D782CFE00A8E672 /* LXMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXMainViewController.xib; sourceTree = "<group>"; };
+		048C0BF71D78305100A8E672 /* LXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMeViewController.h; sourceTree = "<group>"; };
+		048C0BF81D78305100A8E672 /* LXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMeViewController.m; sourceTree = "<group>"; };
+		048C0BF91D78305100A8E672 /* LXMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXMeViewController.xib; sourceTree = "<group>"; };
+		048C0BFC1D78307300A8E672 /* LXFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFocusViewController.h; sourceTree = "<group>"; };
+		048C0BFD1D78307300A8E672 /* LXFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFocusViewController.m; sourceTree = "<group>"; };
+		048C0BFE1D78307300A8E672 /* LXFocusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFocusViewController.xib; sourceTree = "<group>"; };
+		048C0C061D7830FD00A8E672 /* LXNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNearViewController.h; sourceTree = "<group>"; };
+		048C0C071D7830FD00A8E672 /* LXNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNearViewController.m; sourceTree = "<group>"; };
+		048C0C081D7830FD00A8E672 /* LXNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXNearViewController.xib; sourceTree = "<group>"; };
+		048C0C0C1D78317D00A8E672 /* LXHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHotViewController.h; sourceTree = "<group>"; };
+		048C0C0D1D78317D00A8E672 /* LXHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHotViewController.m; sourceTree = "<group>"; };
+		048C0C0E1D78317D00A8E672 /* LXHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHotViewController.xib; sourceTree = "<group>"; };
+		0D0DBAA899D7569829681B82 /* Pods-Inke_LiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_LiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_LiveUITests/Pods-Inke_LiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2662AE5E6CC94FFB37FB9044 /* libPods-Inke_LiveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke_LiveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371CFBC0754D04AA73E7CFF2 /* Pods-Inke_Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_Live/Pods-Inke_Live.release.xcconfig"; sourceTree = "<group>"; };
+		3785A0AAD728542D0E479CDA /* Pods-Inke_LiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_LiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_LiveTests/Pods-Inke_LiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45E0F4974E5FF7C622BB0DDC /* Pods-Inke_Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_Live/Pods-Inke_Live.debug.xcconfig"; sourceTree = "<group>"; };
+		76EFDC78C71DA77E7D4A671C /* libPods-Inke_LiveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke_LiveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F3AEF3C049D8D8743AFCE5 /* Pods-Inke_LiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_LiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_LiveTests/Pods-Inke_LiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFA9A6DC0AEC2E9351975B56 /* libPods-Inke_Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inke_Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D201B5C16ECD3ADBC2766D3A /* Pods-Inke_LiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inke_LiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inke_LiveUITests/Pods-Inke_LiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048C0B6A1D77C3B900A8E672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413CF6050C1E2550D77CC9D9 /* libPods-Inke_Live.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048C0B831D77C3B900A8E672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2389A19480ADDA697424298A /* libPods-Inke_LiveTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048C0B8E1D77C3B900A8E672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B613E2691BDB606B74CA9162 /* libPods-Inke_LiveUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048C0B641D77C3B900A8E672 = {
+			isa = PBXGroup;
+			children = (
+				048C0B6F1D77C3B900A8E672 /* Inke_Live */,
+				048C0B891D77C3B900A8E672 /* Inke_LiveTests */,
+				048C0B941D77C3B900A8E672 /* Inke_LiveUITests */,
+				048C0B6E1D77C3B900A8E672 /* Products */,
+				BA898E257A8BC724BD214822 /* Pods */,
+				46C205B671F1FA0EF8487296 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048C0B6E1D77C3B900A8E672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048C0B6D1D77C3B900A8E672 /* Inke_Live.app */,
+				048C0B861D77C3B900A8E672 /* Inke_LiveTests.xctest */,
+				048C0B911D77C3B900A8E672 /* Inke_LiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048C0B6F1D77C3B900A8E672 /* Inke_Live */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BA31D77C4A600A8E672 /* Classes */,
+				048C0B701D77C3B900A8E672 /* Supporting Files */,
+			);
+			path = Inke_Live;
+			sourceTree = "<group>";
+		};
+		048C0B701D77C3B900A8E672 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048C0B791D77C3B900A8E672 /* Main.storyboard */,
+				048C0B7C1D77C3B900A8E672 /* Assets.xcassets */,
+				048C0B7E1D77C3B900A8E672 /* LaunchScreen.storyboard */,
+				048C0B811D77C3B900A8E672 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048C0B891D77C3B900A8E672 /* Inke_LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				048C0B8A1D77C3B900A8E672 /* Inke_LiveTests.m */,
+				048C0B8C1D77C3B900A8E672 /* Info.plist */,
+			);
+			path = Inke_LiveTests;
+			sourceTree = "<group>";
+		};
+		048C0B941D77C3B900A8E672 /* Inke_LiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048C0B951D77C3B900A8E672 /* Inke_LiveUITests.m */,
+				048C0B971D77C3B900A8E672 /* Info.plist */,
+			);
+			path = Inke_LiveUITests;
+			sourceTree = "<group>";
+		};
+		048C0BA31D77C4A600A8E672 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BB71D77C4A600A8E672 /* Net */,
+				048C0BA41D77C4A600A8E672 /* Base */,
+				048C0BA51D77C4A600A8E672 /* Helper */,
+				048C0BA81D77C4A600A8E672 /* Lauren */,
+				048C0BAD1D77C4A600A8E672 /* Live */,
+				048C0BB21D77C4A600A8E672 /* Me */,
+				048C0BB81D77C4A600A8E672 /* Other */,
+				048C0BBD1D77C4A600A8E672 /* Show */,
+				048C0BC21D77C4A600A8E672 /* Vender */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		048C0BA41D77C4A600A8E672 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BD11D77D9DC00A8E672 /* LXBaseNavigationController.h */,
+				048C0BD21D77D9DC00A8E672 /* LXBaseNavigationController.m */,
+				048C0BC61D77D10600A8E672 /* LXBaseTabBarController.h */,
+				048C0BC71D77D10600A8E672 /* LXBaseTabBarController.m */,
+				048C0BC91D77D19700A8E672 /* LXTabBar.h */,
+				048C0BCA1D77D19700A8E672 /* LXTabBar.m */,
+				048C0BDF1D78260100A8E672 /* LXBaseViewController.h */,
+				048C0BE01D78260100A8E672 /* LXBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		048C0BA51D77C4A600A8E672 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BA61D77C4A600A8E672 /* Category */,
+				048C0BA71D77C4A600A8E672 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		048C0BA61D77C4A600A8E672 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		048C0BA71D77C4A600A8E672 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		048C0BA81D77C4A600A8E672 /* Lauren */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BA91D77C4A600A8E672 /* Handle */,
+				048C0BAA1D77C4A600A8E672 /* Model */,
+				048C0BAB1D77C4A600A8E672 /* View */,
+				048C0BAC1D77C4A600A8E672 /* ViewController */,
+			);
+			path = Lauren;
+			sourceTree = "<group>";
+		};
+		048C0BA91D77C4A600A8E672 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		048C0BAA1D77C4A600A8E672 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048C0BAB1D77C4A600A8E672 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048C0BAC1D77C4A600A8E672 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BE71D782A6700A8E672 /* LXLaurenViewController.h */,
+				048C0BE81D782A6700A8E672 /* LXLaurenViewController.m */,
+				048C0BE91D782A6700A8E672 /* LXLaurenViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048C0BAD1D77C4A600A8E672 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BAE1D77C4A600A8E672 /* Handle */,
+				048C0BAF1D77C4A600A8E672 /* Model */,
+				048C0BB01D77C4A600A8E672 /* View */,
+				048C0BB11D77C4A600A8E672 /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		048C0BAE1D77C4A600A8E672 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		048C0BAF1D77C4A600A8E672 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048C0BB01D77C4A600A8E672 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048C0BB11D77C4A600A8E672 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BD71D77DF2B00A8E672 /* LXLiveViewController.h */,
+				048C0BD81D77DF2B00A8E672 /* LXLiveViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048C0BB21D77C4A600A8E672 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BB31D77C4A600A8E672 /* Handle */,
+				048C0BB41D77C4A600A8E672 /* Model */,
+				048C0BB51D77C4A600A8E672 /* View */,
+				048C0BB61D77C4A600A8E672 /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		048C0BB31D77C4A600A8E672 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		048C0BB41D77C4A600A8E672 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048C0BB51D77C4A600A8E672 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048C0BB61D77C4A600A8E672 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048C0BB71D77C4A600A8E672 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		048C0BB81D77C4A600A8E672 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BC51D77C51100A8E672 /* Inke_Live.pch */,
+				048C0BB91D77C4A600A8E672 /* AppDelegate.h */,
+				048C0BBA1D77C4A600A8E672 /* AppDelegate.m */,
+				048C0BBB1D77C4A600A8E672 /* ViewController.h */,
+				048C0BBC1D77C4A600A8E672 /* ViewController.m */,
+				048C0BCC1D77D5A600A8E672 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		048C0BBD1D77C4A600A8E672 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BBE1D77C4A600A8E672 /* Handle */,
+				048C0BBF1D77C4A600A8E672 /* Model */,
+				048C0BC01D77C4A600A8E672 /* View */,
+				048C0BC11D77C4A600A8E672 /* ViewController */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		048C0BBE1D77C4A600A8E672 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		048C0BBF1D77C4A600A8E672 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		048C0BC01D77C4A600A8E672 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048C0BC11D77C4A600A8E672 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BEF1D782CFE00A8E672 /* LXMainViewController.h */,
+				048C0BF01D782CFE00A8E672 /* LXMainViewController.m */,
+				048C0BF11D782CFE00A8E672 /* LXMainViewController.xib */,
+				048C0BF71D78305100A8E672 /* LXMeViewController.h */,
+				048C0BF81D78305100A8E672 /* LXMeViewController.m */,
+				048C0BF91D78305100A8E672 /* LXMeViewController.xib */,
+				048C0C0B1D78311200A8E672 /* Show的子视图 */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048C0BC21D77C4A600A8E672 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		048C0C0B1D78311200A8E672 /* Show的子视图 */ = {
+			isa = PBXGroup;
+			children = (
+				048C0BFC1D78307300A8E672 /* LXFocusViewController.h */,
+				048C0BFD1D78307300A8E672 /* LXFocusViewController.m */,
+				048C0BFE1D78307300A8E672 /* LXFocusViewController.xib */,
+				048C0C0C1D78317D00A8E672 /* LXHotViewController.h */,
+				048C0C0D1D78317D00A8E672 /* LXHotViewController.m */,
+				048C0C0E1D78317D00A8E672 /* LXHotViewController.xib */,
+				048C0C061D7830FD00A8E672 /* LXNearViewController.h */,
+				048C0C071D7830FD00A8E672 /* LXNearViewController.m */,
+				048C0C081D7830FD00A8E672 /* LXNearViewController.xib */,
+			);
+			name = "Show的子视图";
+			sourceTree = "<group>";
+		};
+		46C205B671F1FA0EF8487296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA9A6DC0AEC2E9351975B56 /* libPods-Inke_Live.a */,
+				2662AE5E6CC94FFB37FB9044 /* libPods-Inke_LiveTests.a */,
+				76EFDC78C71DA77E7D4A671C /* libPods-Inke_LiveUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA898E257A8BC724BD214822 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45E0F4974E5FF7C622BB0DDC /* Pods-Inke_Live.debug.xcconfig */,
+				371CFBC0754D04AA73E7CFF2 /* Pods-Inke_Live.release.xcconfig */,
+				3785A0AAD728542D0E479CDA /* Pods-Inke_LiveTests.debug.xcconfig */,
+				79F3AEF3C049D8D8743AFCE5 /* Pods-Inke_LiveTests.release.xcconfig */,
+				0D0DBAA899D7569829681B82 /* Pods-Inke_LiveUITests.debug.xcconfig */,
+				D201B5C16ECD3ADBC2766D3A /* Pods-Inke_LiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048C0B6C1D77C3B900A8E672 /* Inke_Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048C0B9A1D77C3B900A8E672 /* Build configuration list for PBXNativeTarget "Inke_Live" */;
+			buildPhases = (
+				9CD1FBB6FD8E60CD8A345414 /* [CP] Check Pods Manifest.lock */,
+				048C0B691D77C3B900A8E672 /* Sources */,
+				048C0B6A1D77C3B900A8E672 /* Frameworks */,
+				048C0B6B1D77C3B900A8E672 /* Resources */,
+				2463242477A58030C60D0C71 /* [CP] Embed Pods Frameworks */,
+				F78EA4593DAE92AB84140B63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inke_Live;
+			productName = Inke_Live;
+			productReference = 048C0B6D1D77C3B900A8E672 /* Inke_Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048C0B851D77C3B900A8E672 /* Inke_LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048C0B9D1D77C3B900A8E672 /* Build configuration list for PBXNativeTarget "Inke_LiveTests" */;
+			buildPhases = (
+				05516A86153840408002E09A /* [CP] Check Pods Manifest.lock */,
+				048C0B821D77C3B900A8E672 /* Sources */,
+				048C0B831D77C3B900A8E672 /* Frameworks */,
+				048C0B841D77C3B900A8E672 /* Resources */,
+				858CDF44246284CAE3D76EA0 /* [CP] Embed Pods Frameworks */,
+				3D4292F2531A4051EBB3C5DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048C0B881D77C3B900A8E672 /* PBXTargetDependency */,
+			);
+			name = Inke_LiveTests;
+			productName = Inke_LiveTests;
+			productReference = 048C0B861D77C3B900A8E672 /* Inke_LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048C0B901D77C3B900A8E672 /* Inke_LiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048C0BA01D77C3B900A8E672 /* Build configuration list for PBXNativeTarget "Inke_LiveUITests" */;
+			buildPhases = (
+				1A01CFCF682AA24279FC63BF /* [CP] Check Pods Manifest.lock */,
+				048C0B8D1D77C3B900A8E672 /* Sources */,
+				048C0B8E1D77C3B900A8E672 /* Frameworks */,
+				048C0B8F1D77C3B900A8E672 /* Resources */,
+				E66C60CCEDC53137BF3B1957 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048C0B931D77C3B900A8E672 /* PBXTargetDependency */,
+			);
+			name = Inke_LiveUITests;
+			productName = Inke_LiveUITests;
+			productReference = 048C0B911D77C3B900A8E672 /* Inke_LiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048C0B651D77C3B900A8E672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LX;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LXq;
+				TargetAttributes = {
+					048C0B6C1D77C3B900A8E672 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					048C0B851D77C3B900A8E672 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 048C0B6C1D77C3B900A8E672;
+					};
+					048C0B901D77C3B900A8E672 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 048C0B6C1D77C3B900A8E672;
+					};
+				};
+			};
+			buildConfigurationList = 048C0B681D77C3B900A8E672 /* Build configuration list for PBXProject "Inke_Live" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048C0B641D77C3B900A8E672;
+			productRefGroup = 048C0B6E1D77C3B900A8E672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048C0B6C1D77C3B900A8E672 /* Inke_Live */,
+				048C0B851D77C3B900A8E672 /* Inke_LiveTests */,
+				048C0B901D77C3B900A8E672 /* Inke_LiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048C0B6B1D77C3B900A8E672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C0BFB1D78305100A8E672 /* LXMeViewController.xib in Resources */,
+				048C0B801D77C3B900A8E672 /* LaunchScreen.storyboard in Resources */,
+				048C0C0A1D7830FD00A8E672 /* LXNearViewController.xib in Resources */,
+				048C0BEB1D782A6700A8E672 /* LXLaurenViewController.xib in Resources */,
+				048C0B7D1D77C3B900A8E672 /* Assets.xcassets in Resources */,
+				048C0C101D78317D00A8E672 /* LXHotViewController.xib in Resources */,
+				048C0C001D78307300A8E672 /* LXFocusViewController.xib in Resources */,
+				048C0B7B1D77C3B900A8E672 /* Main.storyboard in Resources */,
+				048C0BF31D782CFE00A8E672 /* LXMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048C0B841D77C3B900A8E672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048C0B8F1D77C3B900A8E672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05516A86153840408002E09A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A01CFCF682AA24279FC63BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2463242477A58030C60D0C71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inke_Live/Pods-Inke_Live-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4292F2531A4051EBB3C5DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inke_LiveTests/Pods-Inke_LiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		858CDF44246284CAE3D76EA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inke_LiveTests/Pods-Inke_LiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD1FBB6FD8E60CD8A345414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E66C60CCEDC53137BF3B1957 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inke_LiveUITests/Pods-Inke_LiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78EA4593DAE92AB84140B63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inke_Live/Pods-Inke_Live-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048C0B691D77C3B900A8E672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C0C0F1D78317D00A8E672 /* LXHotViewController.m in Sources */,
+				048C0BCD1D77D5A600A8E672 /* main.m in Sources */,
+				048C0BD31D77D9DC00A8E672 /* LXBaseNavigationController.m in Sources */,
+				048C0C091D7830FD00A8E672 /* LXNearViewController.m in Sources */,
+				048C0BC41D77C4A600A8E672 /* ViewController.m in Sources */,
+				048C0BE11D78260100A8E672 /* LXBaseViewController.m in Sources */,
+				048C0BFA1D78305100A8E672 /* LXMeViewController.m in Sources */,
+				048C0BFF1D78307300A8E672 /* LXFocusViewController.m in Sources */,
+				048C0BD91D77DF2B00A8E672 /* LXLiveViewController.m in Sources */,
+				048C0BC31D77C4A600A8E672 /* AppDelegate.m in Sources */,
+				048C0BC81D77D10600A8E672 /* LXBaseTabBarController.m in Sources */,
+				048C0BF21D782CFE00A8E672 /* LXMainViewController.m in Sources */,
+				048C0BCB1D77D19700A8E672 /* LXTabBar.m in Sources */,
+				048C0BEA1D782A6700A8E672 /* LXLaurenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048C0B821D77C3B900A8E672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C0B8B1D77C3B900A8E672 /* Inke_LiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048C0B8D1D77C3B900A8E672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048C0B961D77C3B900A8E672 /* Inke_LiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048C0B881D77C3B900A8E672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048C0B6C1D77C3B900A8E672 /* Inke_Live */;
+			targetProxy = 048C0B871D77C3B900A8E672 /* PBXContainerItemProxy */;
+		};
+		048C0B931D77C3B900A8E672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048C0B6C1D77C3B900A8E672 /* Inke_Live */;
+			targetProxy = 048C0B921D77C3B900A8E672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048C0B791D77C3B900A8E672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048C0B7A1D77C3B900A8E672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048C0B7E1D77C3B900A8E672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048C0B7F1D77C3B900A8E672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048C0B981D77C3B900A8E672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048C0B991D77C3B900A8E672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048C0B9B1D77C3B900A8E672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E0F4974E5FF7C622BB0DDC /* Pods-Inke_Live.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Inke_Live/Classes/Other/Inke_Live.pch";
+				INFOPLIST_FILE = Inke_Live/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.Inke-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048C0B9C1D77C3B900A8E672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371CFBC0754D04AA73E7CFF2 /* Pods-Inke_Live.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Inke_Live/Classes/Other/Inke_Live.pch";
+				INFOPLIST_FILE = Inke_Live/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.Inke-Live";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048C0B9E1D77C3B900A8E672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3785A0AAD728542D0E479CDA /* Pods-Inke_LiveTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Inke_LiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.Inke-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inke_Live.app/Inke_Live";
+			};
+			name = Debug;
+		};
+		048C0B9F1D77C3B900A8E672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F3AEF3C049D8D8743AFCE5 /* Pods-Inke_LiveTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Inke_LiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.Inke-LiveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inke_Live.app/Inke_Live";
+			};
+			name = Release;
+		};
+		048C0BA11D77C3B900A8E672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0DBAA899D7569829681B82 /* Pods-Inke_LiveUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Inke_LiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.Inke-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Inke_Live;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		048C0BA21D77C3B900A8E672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D201B5C16ECD3ADBC2766D3A /* Pods-Inke_LiveUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Inke_LiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjsxt.Inke-LiveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Inke_Live;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048C0B681D77C3B900A8E672 /* Build configuration list for PBXProject "Inke_Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C0B981D77C3B900A8E672 /* Debug */,
+				048C0B991D77C3B900A8E672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048C0B9A1D77C3B900A8E672 /* Build configuration list for PBXNativeTarget "Inke_Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C0B9B1D77C3B900A8E672 /* Debug */,
+				048C0B9C1D77C3B900A8E672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048C0B9D1D77C3B900A8E672 /* Build configuration list for PBXNativeTarget "Inke_LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C0B9E1D77C3B900A8E672 /* Debug */,
+				048C0B9F1D77C3B900A8E672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048C0BA01D77C3B900A8E672 /* Build configuration list for PBXNativeTarget "Inke_LiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048C0BA11D77C3B900A8E672 /* Debug */,
+				048C0BA21D77C3B900A8E672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048C0B651D77C3B900A8E672 /* Project object */;
+}

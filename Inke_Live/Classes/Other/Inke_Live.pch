@@ -1,0 +1,33 @@
+
+//
+//  Inke_Live.pch
+//  Inke_Live
+//
+//  Created by ma c on 16/9/1.
+//  Copyright © 2016年 LXq. All rights reserved.
+//
+
+#ifndef Inke_Live_pch
+#define Inke_Live_pch
+
+// 第三方库的头文件
+#define MAS_SHORTHAND_GLOBALS
+#define MAS_SHORTHAND
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+
+
+// 自定义的宏
+/** 屏幕宽 */
+#define KSCREEN_WITH [UIScreen mainScreen].bounds.size.width
+/** 屏幕高 */
+#define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+/** RGB颜色 */
+#define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+/** 随机色 */
+#define RandomColor RGB(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+/** 灰色 */
+#define Gray(g) [UIColor colorWithRed:g green:g blue:g alpha:1]
+
+
+#endif /* Inke_Live_pch */

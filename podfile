@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '7.0'
+
+target 'Inke_Live' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+	pod 'AFNetworking', '~> 3.1.0'
+	pod 'SDWebImage', '~> 3.8.1'
+	pod 'Masonry', '~> 1.0.1'
+  # Pods for Inke_Live
+
+  target 'Inke_LiveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Inke_LiveUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
