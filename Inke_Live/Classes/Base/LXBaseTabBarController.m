@@ -20,7 +20,7 @@
 - (LXTabBar *)tabBarView
 {
     if (!_tabBarView) {
-        _tabBarView = [[LXTabBar alloc] initWithFrame:CGRectMake(0, 0, KSCREEN_WITH, 49)];
+        _tabBarView = [[LXTabBar alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WITH, 49)];
         // block调用
 //        __weak typeof(self) weakSelf = self;
 //        _tabBarView.tabBarBlock = ^(LXTabBar *tabBar, LXItemType index){

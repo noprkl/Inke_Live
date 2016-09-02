@@ -15,13 +15,22 @@
 #define MAS_SHORTHAND
 #import <Masonry.h>
 #import <UIImageView+WebCache.h>
+#import <YYKit.h>
+#import <MJExtension.h>
+#import <AFNetworking.h>
+
+
+// 自定义的工具
+#import "APIConfig.h"
+#import "UIImageView+SDWebImage.h" // SDWebimage 二次封装
+
 
 
 // 自定义的宏
 /** 屏幕宽 */
-#define KSCREEN_WITH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_WITH [UIScreen mainScreen].bounds.size.width
 /** 屏幕高 */
-#define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 /** RGB颜色 */
 #define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
 /** 随机色 */

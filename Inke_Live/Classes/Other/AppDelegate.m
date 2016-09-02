@@ -28,7 +28,7 @@
     [self.window makeKeyAndVisible];
 
     // 设置启动图片停留时间
-    [NSThread sleepForTimeInterval:1];
+//    [NSThread sleepForTimeInterval:1];
 
     return YES;
 }
