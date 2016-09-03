@@ -12,28 +12,24 @@
 static NSString *baseURL = SERVER_HOST;
 
 /** 类簇 */
-
 @interface  AFHTTPClient : AFHTTPSessionManager
 
 + (instancetype)sharedClient;
+
 @end
+
 @implementation AFHTTPClient
 
-+ (instancetype)sharedClient
-{
++ (instancetype)sharedClient {
+    
     static AFHTTPClient *cliedt = nil;
-    
-    dispatch_once_t onceToken;
-    
+    static dispatch_once_t onceToken;
+
     dispatch_once(&onceToken, ^{
-        
         NSURLSessionConfiguration *confi = [NSURLSessionConfiguration defaultSessionConfiguration];
-        
         cliedt = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:baseURL] sessionConfiguration:confi];
-        
         //接收参数类型
-        cliedt.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/html", @"text/jsons", @"text/javascript",@"text/plain",@"image/gif", nil];
-        
+        cliedt.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/html", @"text/json", @"text/javascript",@"text/plain",@"image/gif", nil];
         //安全系数
         cliedt.securityPolicy = [AFSecurityPolicy defaultPolicy];
         
@@ -44,6 +40,7 @@ static NSString *baseURL = SERVER_HOST;
 @end
 
 @implementation HttpTool
+
 + (void)getWithPath:(NSString *)path
              params:(NSDictionary *)params
             success:(HttpSuccessBlock)succsee
@@ -51,29 +48,35 @@ static NSString *baseURL = SERVER_HOST;
 {
     NSString * url = [baseURL stringByAppendingPathComponent:path];
     [[AFHTTPClient sharedClient] GET:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
         succsee(responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
         failed(error);
     }];
 
 }
+
 + (void)postWithPath:(NSString *)path
              paramse:(NSDictionary *)parames
              success:(HttpSuccessBlock)success
-             failure:(HttpFailedBlock)failure
-{
+             failure:(HttpFailedBlock)failure {
+    
     NSString * url = [baseURL stringByAppendingPathComponent:path];
+   
     [[AFHTTPClient sharedClient] POST:url parameters:parames progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+       
         success(responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
         failure(error);
     }];
 }
 + (void)downloadWithPath:(NSString *)path
                  success:(HttpSuccessBlock)success
                   failed:(HttpFailedBlock)failur
-                progress:(HttpDownloadProgressBlock)progress
-{
+                progress:(HttpDownloadProgressBlock)progress {
+    
     NSString * string = [baseURL stringByAppendingPathComponent:path];
     NSURL *url = [NSURL URLWithString:string];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -96,8 +99,8 @@ static NSString *baseURL = SERVER_HOST;
                  image:(UIImage *)image
                success:(HttpSuccessBlock)success
                 failed:(HttpFailedBlock)failur
-              progress:(HttpUploadProgressBlock)progress
-{
+              progress:(HttpUploadProgressBlock)progress {
+    
     //获取完整的url路径
     NSString *string = [baseURL stringByAppendingString:path];
     NSData *data = UIImagePNGRepresentation(image);

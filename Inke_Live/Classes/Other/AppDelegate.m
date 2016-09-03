@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LXBaseTabBarController.h"
+#import "LXLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,12 +24,15 @@
 
     LXBaseTabBarController *tabBar = [[LXBaseTabBarController alloc] init];
     
-    self.window.rootViewController = tabBar;
+//    self.window.rootViewController = tabBar;
 
+    
+    // 登录界面
+    LXLoginViewController *loginVC = [[LXLoginViewController alloc] init];
+    self.window.rootViewController = loginVC;
+    
     [self.window makeKeyAndVisible];
 
-    // 设置启动图片停留时间
-//    [NSThread sleepForTimeInterval:1];
 
     return YES;
 }

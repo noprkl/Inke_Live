@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class LXLive;
 @interface LXHotLiveCell : UITableViewCell
 
+/** 直播信息模型 */
+@property (strong, nonatomic) LXLive *live;
 @end

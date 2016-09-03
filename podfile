@@ -9,6 +9,9 @@ target 'Inke_Live' do
 	pod 'Masonry', '~> 1.0.1'
 	pod 'YYKit', '~> 1.0.7'
 	pod 'MJExtension', '~> 3.0.13'
+	pod 'MBProgressHUD', '~> 1.0.0'
+	pod 'SDCycleScrollView', '~> 1.65'
+	
   # Pods for Inke_Live
 
   target 'Inke_LiveTests' do

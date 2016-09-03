@@ -13,7 +13,14 @@
 		040FE93F1D7981070056F7C6 /* LXHotLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE93E1D7981070056F7C6 /* LXHotLiveHandler.m */; };
 		040FE9431D7982770056F7C6 /* LXHotLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE9411D7982770056F7C6 /* LXHotLiveCell.m */; };
 		040FE9441D7982770056F7C6 /* LXHotLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040FE9421D7982770056F7C6 /* LXHotLiveCell.xib */; };
-		040FE9471D7993A50056F7C6 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE9461D7993A50056F7C6 /* HttpTool.m */; };
+		040FE9501D79A3050056F7C6 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE94F1D79A3050056F7C6 /* HttpTool.m */; };
+		040FE9581D79B68C0056F7C6 /* LXHotLiveHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE9571D79B68C0056F7C6 /* LXHotLiveHeaderView.m */; };
+		040FE95D1D7AC1C10056F7C6 /* LXHotLiveAdvertise.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE95C1D7AC1C10056F7C6 /* LXHotLiveAdvertise.m */; };
+		040FE9601D7AC1E30056F7C6 /* LXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE95F1D7AC1E30056F7C6 /* LXResource.m */; };
+		040FE9681D7AD57C0056F7C6 /* LXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FE9671D7AD57C0056F7C6 /* LXLoginViewController.m */; };
+		040FE96A1D7AD59D0056F7C6 /* LXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040FE9691D7AD59D0056F7C6 /* LXLoginViewController.xib */; };
+		047DF3D31D7AF1AC000DF912 /* LXPhoneLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DF3D11D7AF1AC000DF912 /* LXPhoneLoginViewController.m */; };
+		047DF3D41D7AF1AC000DF912 /* LXPhoneLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047DF3D21D7AF1AC000DF912 /* LXPhoneLoginViewController.xib */; };
 		048C0B7B1D77C3B900A8E672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C0B791D77C3B900A8E672 /* Main.storyboard */; };
 		048C0B7D1D77C3B900A8E672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C0B7C1D77C3B900A8E672 /* Assets.xcassets */; };
 		048C0B801D77C3B900A8E672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C0B7E1D77C3B900A8E672 /* LaunchScreen.storyboard */; };
@@ -76,8 +83,20 @@
 		040FE9401D7982770056F7C6 /* LXHotLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHotLiveCell.h; sourceTree = "<group>"; };
 		040FE9411D7982770056F7C6 /* LXHotLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHotLiveCell.m; sourceTree = "<group>"; };
 		040FE9421D7982770056F7C6 /* LXHotLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXHotLiveCell.xib; sourceTree = "<group>"; };
-		040FE9451D7993A50056F7C6 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
-		040FE9461D7993A50056F7C6 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		040FE94E1D79A3050056F7C6 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		040FE94F1D79A3050056F7C6 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		040FE9561D79B68C0056F7C6 /* LXHotLiveHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHotLiveHeaderView.h; sourceTree = "<group>"; };
+		040FE9571D79B68C0056F7C6 /* LXHotLiveHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHotLiveHeaderView.m; sourceTree = "<group>"; };
+		040FE95B1D7AC1C10056F7C6 /* LXHotLiveAdvertise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHotLiveAdvertise.h; sourceTree = "<group>"; };
+		040FE95C1D7AC1C10056F7C6 /* LXHotLiveAdvertise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHotLiveAdvertise.m; sourceTree = "<group>"; };
+		040FE95E1D7AC1E30056F7C6 /* LXResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXResource.h; sourceTree = "<group>"; };
+		040FE95F1D7AC1E30056F7C6 /* LXResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXResource.m; sourceTree = "<group>"; };
+		040FE9661D7AD57C0056F7C6 /* LXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXLoginViewController.h; sourceTree = "<group>"; };
+		040FE9671D7AD57C0056F7C6 /* LXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXLoginViewController.m; sourceTree = "<group>"; };
+		040FE9691D7AD59D0056F7C6 /* LXLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXLoginViewController.xib; sourceTree = "<group>"; };
+		047DF3D01D7AF1AC000DF912 /* LXPhoneLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPhoneLoginViewController.h; sourceTree = "<group>"; };
+		047DF3D11D7AF1AC000DF912 /* LXPhoneLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPhoneLoginViewController.m; sourceTree = "<group>"; };
+		047DF3D21D7AF1AC000DF912 /* LXPhoneLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXPhoneLoginViewController.xib; sourceTree = "<group>"; };
 		048C0B6D1D77C3B900A8E672 /* Inke_Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inke_Live.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048C0B7A1D77C3B900A8E672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048C0B7C1D77C3B900A8E672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -172,6 +191,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040FE9591D7AC1750056F7C6 /* HotLive */ = {
+			isa = PBXGroup;
+			children = (
+				048C0C7A1D792EFE00A8E672 /* LXHotLiveModel.h */,
+				048C0C7B1D792EFE00A8E672 /* LXHotLiveModel.m */,
+				048C0C831D792FC500A8E672 /* LXCreateor.h */,
+				048C0C841D792FC500A8E672 /* LXCreateor.m */,
+				048C0C861D792FDC00A8E672 /* LXLive.h */,
+				048C0C871D792FDC00A8E672 /* LXLive.m */,
+			);
+			name = HotLive;
+			sourceTree = "<group>";
+		};
+		040FE95A1D7AC1800056F7C6 /* HotAdvertise */ = {
+			isa = PBXGroup;
+			children = (
+				040FE95B1D7AC1C10056F7C6 /* LXHotLiveAdvertise.h */,
+				040FE95C1D7AC1C10056F7C6 /* LXHotLiveAdvertise.m */,
+				040FE95E1D7AC1E30056F7C6 /* LXResource.h */,
+				040FE95F1D7AC1E30056F7C6 /* LXResource.m */,
+			);
+			name = HotAdvertise;
+			sourceTree = "<group>";
+		};
+		040FE9611D7AD5230056F7C6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				040FE9621D7AD5230056F7C6 /* Handle */,
+				040FE9631D7AD5230056F7C6 /* Model */,
+				040FE9641D7AD5230056F7C6 /* View */,
+				040FE9651D7AD5230056F7C6 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		040FE9621D7AD5230056F7C6 /* Handle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handle;
+			sourceTree = "<group>";
+		};
+		040FE9631D7AD5230056F7C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040FE9641D7AD5230056F7C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040FE9651D7AD5230056F7C6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040FE9661D7AD57C0056F7C6 /* LXLoginViewController.h */,
+				040FE9671D7AD57C0056F7C6 /* LXLoginViewController.m */,
+				040FE9691D7AD59D0056F7C6 /* LXLoginViewController.xib */,
+				047DF3D01D7AF1AC000DF912 /* LXPhoneLoginViewController.h */,
+				047DF3D11D7AF1AC000DF912 /* LXPhoneLoginViewController.m */,
+				047DF3D21D7AF1AC000DF912 /* LXPhoneLoginViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		048C0B641D77C3B900A8E672 = {
 			isa = PBXGroup;
 			children = (
@@ -235,15 +323,16 @@
 		048C0BA31D77C4A600A8E672 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				048C0BB81D77C4A600A8E672 /* Other */,
 				048C0C6F1D7925C000A8E672 /* NetWork */,
 				048C0BA51D77C4A600A8E672 /* Helper */,
-				048C0BC21D77C4A600A8E672 /* Vender */,
 				048C0BA41D77C4A600A8E672 /* Base */,
+				040FE9611D7AD5230056F7C6 /* Login */,
 				048C0BA81D77C4A600A8E672 /* Lauren */,
 				048C0BAD1D77C4A600A8E672 /* Live */,
 				048C0BB21D77C4A600A8E672 /* Me */,
 				048C0BBD1D77C4A600A8E672 /* Show */,
+				048C0BB81D77C4A600A8E672 /* Other */,
+				048C0BC21D77C4A600A8E672 /* Vender */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -451,12 +540,8 @@
 		048C0BBF1D77C4A600A8E672 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				048C0C7A1D792EFE00A8E672 /* LXHotLiveModel.h */,
-				048C0C7B1D792EFE00A8E672 /* LXHotLiveModel.m */,
-				048C0C831D792FC500A8E672 /* LXCreateor.h */,
-				048C0C841D792FC500A8E672 /* LXCreateor.m */,
-				048C0C861D792FDC00A8E672 /* LXLive.h */,
-				048C0C871D792FDC00A8E672 /* LXLive.m */,
+				040FE95A1D7AC1800056F7C6 /* HotAdvertise */,
+				040FE9591D7AC1750056F7C6 /* HotLive */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -466,6 +551,8 @@
 			children = (
 				048C0C6C1D79165400A8E672 /* LXMainTopView.h */,
 				048C0C6D1D79165400A8E672 /* LXMainTopView.m */,
+				040FE9561D79B68C0056F7C6 /* LXHotLiveHeaderView.h */,
+				040FE9571D79B68C0056F7C6 /* LXHotLiveHeaderView.m */,
 				040FE9401D7982770056F7C6 /* LXHotLiveCell.h */,
 				040FE9411D7982770056F7C6 /* LXHotLiveCell.m */,
 				040FE9421D7982770056F7C6 /* LXHotLiveCell.xib */,
@@ -502,8 +589,8 @@
 		048C0C6F1D7925C000A8E672 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
-				040FE9451D7993A50056F7C6 /* HttpTool.h */,
-				040FE9461D7993A50056F7C6 /* HttpTool.m */,
+				040FE94E1D79A3050056F7C6 /* HttpTool.h */,
+				040FE94F1D79A3050056F7C6 /* HttpTool.m */,
 				048C0C701D7925FE00A8E672 /* APIConfig.h */,
 				048C0C761D7928CD00A8E672 /* UIImageView+SDWebImage.h */,
 				048C0C771D7928CD00A8E672 /* UIImageView+SDWebImage.m */,
@@ -651,6 +738,8 @@
 				048C0C0A1D7830FD00A8E672 /* LXNearViewController.xib in Resources */,
 				048C0BEB1D782A6700A8E672 /* LXLaurenViewController.xib in Resources */,
 				048C0B7D1D77C3B900A8E672 /* Assets.xcassets in Resources */,
+				047DF3D41D7AF1AC000DF912 /* LXPhoneLoginViewController.xib in Resources */,
+				040FE96A1D7AD59D0056F7C6 /* LXLoginViewController.xib in Resources */,
 				048C0C101D78317D00A8E672 /* LXHotViewController.xib in Resources */,
 				048C0C001D78307300A8E672 /* LXFocusViewController.xib in Resources */,
 				048C0B7B1D77C3B900A8E672 /* Main.storyboard in Resources */,
@@ -804,22 +893,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				048C0C0F1D78317D00A8E672 /* LXHotViewController.m in Sources */,
+				040FE9581D79B68C0056F7C6 /* LXHotLiveHeaderView.m in Sources */,
 				048C0C6E1D79165400A8E672 /* LXMainTopView.m in Sources */,
 				048C0BCD1D77D5A600A8E672 /* main.m in Sources */,
 				048C0BD31D77D9DC00A8E672 /* LXBaseNavigationController.m in Sources */,
 				048C0C091D7830FD00A8E672 /* LXNearViewController.m in Sources */,
 				048C0BC41D77C4A600A8E672 /* ViewController.m in Sources */,
+				040FE95D1D7AC1C10056F7C6 /* LXHotLiveAdvertise.m in Sources */,
 				040FE9371D796FA30056F7C6 /* MJExtensionConfig.m in Sources */,
 				040FE93F1D7981070056F7C6 /* LXHotLiveHandler.m in Sources */,
 				048C0C851D792FC500A8E672 /* LXCreateor.m in Sources */,
+				040FE9601D7AC1E30056F7C6 /* LXResource.m in Sources */,
 				048C0C8B1D794FB300A8E672 /* LXBaseHandler.m in Sources */,
 				048C0C781D7928CD00A8E672 /* UIImageView+SDWebImage.m in Sources */,
-				040FE9471D7993A50056F7C6 /* HttpTool.m in Sources */,
+				040FE9501D79A3050056F7C6 /* HttpTool.m in Sources */,
 				048C0BE11D78260100A8E672 /* LXBaseViewController.m in Sources */,
 				048C0BFF1D78307300A8E672 /* LXFocusViewController.m in Sources */,
 				048C0C881D792FDC00A8E672 /* LXLive.m in Sources */,
+				040FE9681D7AD57C0056F7C6 /* LXLoginViewController.m in Sources */,
 				048C0BD91D77DF2B00A8E672 /* LXLiveViewController.m in Sources */,
 				048C0BC31D77C4A600A8E672 /* AppDelegate.m in Sources */,
+				047DF3D31D7AF1AC000DF912 /* LXPhoneLoginViewController.m in Sources */,
 				040FE9431D7982770056F7C6 /* LXHotLiveCell.m in Sources */,
 				048C0BC81D77D10600A8E672 /* LXBaseTabBarController.m in Sources */,
 				048C0BF21D782CFE00A8E672 /* LXMainViewController.m in Sources */,

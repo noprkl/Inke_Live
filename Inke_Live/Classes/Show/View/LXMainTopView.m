@@ -107,7 +107,7 @@
     UIButton *button = self.buttons[btnTag];
     
     //线的动画
-    [UIView animateWithDuration:0.3 animations:^{
+    [UIView animateWithDuration:2 animations:^{
         
         self.lineView.centerX = button.centerX;
     }];

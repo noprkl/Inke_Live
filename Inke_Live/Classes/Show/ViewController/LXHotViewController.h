@@ -8,6 +8,6 @@
 
 #import "LXBaseViewController.h"
 
-@interface LXHotViewController : LXBaseViewController
+@interface LXHotViewController : UITableViewController
 
 @end

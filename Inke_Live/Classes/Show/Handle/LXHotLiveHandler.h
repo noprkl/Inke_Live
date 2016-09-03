@@ -11,7 +11,11 @@
 @interface LXHotLiveHandler : LXBaseHandler
 
 /** 请求热门直播数据 */
-+ (void)executeGetHotLiveTaskWithSuccess:(SuccessBlock)success
-                                  failed:(FailedBlock)failed;
++ (void)executeGetHotLiveTaskWithPage:(NSInteger)pageNum
+                              Success:(SuccessBlock)success
+                               failed:(FailedBlock)failed;
 
+/** 请求热播头部广告 */
++ (void)executeGetHotLiveAdvertiseWithSuccess:(SuccessBlock)success
+                                  failed:(FailedBlock)failed;
 @end

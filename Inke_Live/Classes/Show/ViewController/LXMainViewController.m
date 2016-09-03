@@ -9,6 +9,7 @@
 #import "LXMainViewController.h"
 #import "LXMainTopView.h"
 
+
 @interface LXMainViewController ()<UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIScrollView *contentScrollView;
@@ -36,7 +37,6 @@
     // 添加子视图控制器
     [self setChildViewControllers];
     
-    
 }
 
 #pragma mark
@@ -50,6 +50,10 @@
         NSString *vcName = array[i];
         UIViewController *vc = [[NSClassFromString(vcName) alloc] init];
         vc.title = self.titleNames[i];
+        
+        
+        
+        
         
         // 执行addChildViewController时不会执行viewDidLoad 视图不会被加载
         [self addChildViewController:vc];

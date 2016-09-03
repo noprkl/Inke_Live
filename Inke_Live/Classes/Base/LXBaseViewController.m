@@ -17,14 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.view.backgroundColor = RandomColor;
     
-    NSString * string = NSStringFromClass([self class]);
-    
-    UILabel *label = [[UILabel alloc] initWithFrame:self.view.frame];
-    label.text = string;
-    
-    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {

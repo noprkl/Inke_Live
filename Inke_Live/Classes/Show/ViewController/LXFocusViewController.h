@@ -8,6 +8,10 @@
 
 #import "LXBaseViewController.h"
 
+typedef void(^MoreLiveBtnBlock)();
+
 @interface LXFocusViewController : LXBaseViewController
 
+/** 精彩按钮回调 */
+@property (strong, nonatomic) MoreLiveBtnBlock moreLiveBlock;
 @end

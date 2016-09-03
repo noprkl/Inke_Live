@@ -10,27 +10,45 @@
 
 @interface LXFocusViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *moreLiveBtn;
+
 @end
 
 @implementation LXFocusViewController
 
+// UI处理方法
+- (void)initUI {
+    
+    self.moreLiveBtn.layer.borderColor = RGB(200, 200, 200).CGColor;
+    self.moreLiveBtn.layer.borderWidth = 1;
+
+}
+
+- (IBAction)clickMoreLive:(UIButton *)sender {
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //更新UI
+    [self initUI];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
